@@ -1,0 +1,50 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+LANGUAGES = {
+    "zh": {
+        "init_input_text": "未选择",
+        "language": "🌐 语言:",
+        "file_type": "📄 文件类型:",
+        "input_folder": "📂 输入文件夹:",
+        "choose": "选择...",
+        "compress_individual": "📦 每个文件单独压缩",
+        "compress_combined": "📦 打包为一个压缩包",
+        "processing": "处理中...",
+        "compressing": "压缩中: {i}/{t} - {fname}",
+        "packing": "打包压缩中...",
+        "success": "成功压缩以下文件:",
+        "output_dir": "输出目录: {path}",
+        "error_title": "错误",
+        "unknown_error": "发生未知错误，请查看日志",
+        "done": "完成",
+        "invalid_input_dir": "请选择有效的输入目录",
+        "no_files_found": "中未找到 {suffix} 文件",
+        "unknown_mode": "未知的压缩模式",
+        "cannot_open": "无法打开目录: {err}",
+        "app_error": "程序异常",
+        "app_error_exit": "发生错误，程序已退出"
+    },
+    "en": {
+        "init_input_text": "Not selected",
+        "language": "🌐 language:",
+        "file_type": "📄 File Type:",
+        "input_folder": "📂 Input Folder:",
+        "choose": "Choose...",
+        "compress_individual": "📦 Compress Individually",
+        "compress_combined": "📦 Compress to Single Archive",
+        "processing": "Processing...",
+        "compressing": "Compressing: {i}/{t} - {fname}",
+        "packing": "Packing into archive...",
+        "success": "Successfully compressed the following files:",
+        "output_dir": "Output directory: {path}",
+        "error_title": "Error",
+        "unknown_error": "Unknown error occurred, check logs",
+        "done": "Done",
+        "invalid_input_dir": "Please choose a valid input directory",
+        "no_files_found": "No {suffix} files found in directory",
+        "unknown_mode": "Unknown compression mode",
+        "cannot_open": "Cannot open folder: {err}",
+        "app_error": "Application Error",
+        "app_error_exit": "An error occurred, application exited"
+    }
+}
